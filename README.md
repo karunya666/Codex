@@ -269,7 +269,7 @@ Built with ❤️ using **FastAPI**, **LangGraph**, and **LiteLLM**
 
 
 
-⭐ **Star on GitHub**: [karunya-11/CodeCopilot](https://github.com/karunya666/CodeCopilot)
+⭐ **Star on GitHub**: [karunya666/CodeCopilot](https://github.com/karunya666/CodeCopilot)
 
 </div>
 
