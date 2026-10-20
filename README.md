@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 CodeCopilot
+# 🤖 Codexa
 
 ### AI-Powered Coding Assistant — Think, Plan, Execute
 
@@ -9,9 +9,9 @@
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
 [![LangGraph](https://img.shields.io/badge/LangGraph-Orchestrated-FF6B35?style=for-the-badge)](https://langchain-ai.github.io/langgraph/)
 
-**CodeCopilot is an intelligent agentic coding assistant that understands your codebase, plans multi-step actions, runs tools safely, and helps you ship software faster — powered by the LLM of your choice.**
+**Codexa is an intelligent agentic coding assistant that understands your codebase, plans multi-step actions, runs tools safely, and helps you ship software faster — powered by the LLM of your choice.**
 
-[📖 Docs](docs/) · [⚡ Quick Start](#-step-by-step-local-setup-guide) · [🐛 Report Bug](https://github.com/Heshane-11/CodeCopilot/issues)
+[📖 Docs](docs/) · [⚡ Quick Start](#-step-by-step-local-setup-guide) · [🐛 Report Bug](https://github.com/karunya666/Codexa/issues)
 
 </div>
 
@@ -32,11 +32,11 @@
 
 ---
 
-## 🥊 How CodeCopilot Differs From Other AI Tools
+## 🥊 How Codexa Differs From Other AI Tools
 
-Unlike passive chat interfaces that only process copy-pasted text, **CodeCopilot is an autonomous software engineering agent** that operates directly on your local workspace:
+Unlike passive chat interfaces that only process copy-pasted text, **Codexa is an autonomous software engineering agent** that operates directly on your local workspace:
 
-| Capability | Standard AI Chatbots (ChatGPT / Claude Web) | Basic Copilot Plugins | 🤖 CodeCopilot Agent |
+| Capability | Standard AI Chatbots (ChatGPT / Claude Web) | Basic Copilot Plugins | 🤖 Codexa Agent |
 | :--- | :--- | :--- | :--- |
 | **Codebase Awareness** | ❌ Manual copy-pasting (1–2 files at a time) | ⚠️ Limited to active editor tab | ✅ **Full Codebase Indexing** (AST Tree-sitter & `pgvector` semantic search) |
 | **Autonomous Tool Execution** | ❌ None (Text-only output) | ❌ Cannot execute external tools | ✅ **Multi-Tool Agent Loop** (File read, patch writing, grep, linting) |
@@ -81,7 +81,7 @@ Unlike passive chat interfaces that only process copy-pasted text, **CodeCopilot
 
 ## ⚡ Step-by-Step Local Setup Guide
 
-Follow this guide to run CodeCopilot locally on your computer and connect it to any project on your machine.
+Follow this guide to run Codexa locally on your computer and connect it to any project on your machine.
 
 ### 📋 Prerequisites
 - **Python 3.12+** installed on your system ([Download Python](https://www.python.org/downloads/))
@@ -97,16 +97,16 @@ Follow this guide to run CodeCopilot locally on your computer and connect it to 
 
 **Option A: Using Git (Recommended)**
 ```bash
-git clone https://github.com/Heshane-11/CodeCopilot.git
-cd CodeCopilot
+git clone https://github.com/karunya666/Codexa.git
+cd Codexa
 ```
 
 **Option B: Download ZIP**
 1. Click the green **Code** button at the top of the GitHub repository.
 2. Select **Download ZIP**.
-3. Extract the ZIP folder on your computer and open terminal in the `CodeCopilot` folder:
+3. Extract the ZIP folder on your computer and open terminal in the `Codexa` folder:
    ```bash
-   cd CodeCopilot
+   cd Codexa
    ```
 
 ---
@@ -158,7 +158,7 @@ SANDBOX_BACKEND=local
 
 ---
 
-### Step 4: Start the CodeCopilot Server
+### Step 4: Start the Codexa Server
 
 Run the server command:
 
@@ -169,7 +169,7 @@ uv run coding-assistant serve
 
 You will see the startup confirmation:
 ```text
-🚀 Starting CodeCopilot server at http://127.0.0.1:8000
+🚀 Starting Codexa server at http://127.0.0.1:8000
 📖 API documentation at http://127.0.0.1:8000/docs
 INFO: Application startup complete.
 ```
@@ -191,7 +191,7 @@ INFO: Application startup complete.
 
 ## 🎯 Usage & Example Prompts
 
-Once your workspace is connected, you can ask CodeCopilot anything about your project:
+Once your workspace is connected, you can ask Codexa anything about your project:
 
 ### 1. 🔍 Codebase Exploration & Architecture
 > *"Explain this repo, its file structure, and its main entry points."*
@@ -212,7 +212,7 @@ Once your workspace is connected, you can ask CodeCopilot anything about your pr
 
 ## 💻 Terminal CLI Chat (Alternative)
 
-You can also use CodeCopilot directly from your terminal:
+You can also use Codexa directly from your terminal:
 
 ```bash
 uv run coding-assistant chat --workspace "C:\path\to\your\project"
@@ -239,7 +239,7 @@ Available slash commands in CLI:
 ## 📁 Project Structure
 
 ```
-CodeCopilot/
+Codexa/
 ├── src/coding_assistant/
 │   ├── api/            # FastAPI REST & SSE endpoints
 │   ├── intelligence/   # LangGraph agent orchestration & planning
@@ -266,7 +266,6 @@ This project is open source under the MIT License. See [LICENSE](LICENSE) for de
 
 Built with ❤️ using **FastAPI**, **LangGraph**, and **LiteLLM**
 
-⭐ **Star on GitHub**: [Heshane-11/CodeCopilot](https://github.com/Heshane-11/CodeCopilot)
+⭐ **Star on GitHub**: [karunya666/Codexa](https://github.com/karunya666/Codexa)
 
 </div>
-

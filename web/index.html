@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeCopilot - AI Code Assistant</title>
+    <title>Codexa - AI Code Assistant</title>
     <style>
         * {
             margin: 0;
@@ -433,7 +433,7 @@
         <div class="sidebar">
             <div class="logo">
                 <span class="logo-icon">🤖</span>
-                <span>CodeCopilot</span>
+                <span>Codexa</span>
             </div>
 
             <div class="sidebar-section">
@@ -456,7 +456,7 @@
             <div class="sidebar-section">
                 <div class="sidebar-title">About</div>
                 <div class="chat-status" style="background: transparent; border: none; color: #cbd5e0; font-size: 12px;">
-                    <strong>CodeCopilot v0.1.0</strong><br>
+                    <strong>Codexa v0.1.0</strong><br>
                     AI-powered code assistant with LLM orchestration and structured tools.<br><br>
                     <strong>API:</strong> <span id="api-base-url">http://127.0.0.1:8000</span>
                 </div>
@@ -468,7 +468,7 @@
             <!-- Header -->
             <div class="header">
                 <div>
-                    <div class="header-title">CodeCopilot Chat</div>
+                    <div class="header-title">Codexa Chat</div>
                     <div class="header-info" id="headerInfo">Ready to help</div>
                 </div>
             </div>
@@ -477,7 +477,7 @@
             <div class="chat-container" id="chatContainer">
                 <div class="welcome-section">
                     <div class="welcome-icon">🚀</div>
-                    <div class="welcome-title">Welcome to CodeCopilot</div>
+                    <div class="welcome-title">Welcome to Codexa</div>
                     <div class="welcome-text">Ask me anything about your codebase. I'll analyze, explain, and help you code faster.</div>
                     <div class="example-prompts">
                         <div class="example-prompt" onclick="sendMessage('What are the main entry points in this project?')">
@@ -708,7 +708,7 @@
             document.getElementById('chatContainer').innerHTML = `
                 <div class="welcome-section">
                     <div class="welcome-icon">🚀</div>
-                    <div class="welcome-title">Welcome to CodeCopilot</div>
+                    <div class="welcome-title">Welcome to Codexa</div>
                     <div class="welcome-text">Ask me anything about your codebase. I'll analyze, explain, and help you code faster.</div>
                     <div class="example-prompts">
                         <div class="example-prompt" onclick="sendMessage('What are the main entry points in this project?')">
@@ -734,7 +734,7 @@
             try {
                 const response = await fetch(`${API_BASE}/health`);
                 if (response.ok) {
-                    addMessage('assistant', '<span class="success">✅ Connected to CodeCopilot server!</span>');
+                    addMessage('assistant', '<span class="success">✅ Connected to Codexa server!</span>');
                 }
             } catch (error) {
                 addMessage('assistant', `<span class="error">⚠️ Cannot connect to server. Make sure it's running on ${API_BASE}</span>`);

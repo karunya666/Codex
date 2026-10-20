@@ -14,10 +14,10 @@ def test_normalize_postgresql_scheme_localhost():
     assert connect_args == {}
 
 
-def test_normalize_render_internal_host_codecopilot_db():
-    raw = "postgres://assistant:secret123@codecopilot-db:5432/assistant"
+def test_normalize_render_internal_host_codexa_db():
+    raw = "postgres://assistant:secret123@codexa-db:5432/assistant"
     url, connect_args = normalize_database_url(raw)
-    assert url == "postgresql+asyncpg://assistant:secret123@codecopilot-db:5432/assistant"
+    assert url == "postgresql+asyncpg://assistant:secret123@codexa-db:5432/assistant"
     assert "ssl" in connect_args
     assert connect_args["ssl"] is not None
 

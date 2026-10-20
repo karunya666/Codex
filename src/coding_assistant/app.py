@@ -64,6 +64,6 @@ def create_app() -> FastAPI:
             index_file = web_dir / "index.html"
             if index_file.exists():
                 return FileResponse(str(index_file), media_type="text/html")
-            return {"message": "CodeCopilot API - Open http://127.0.0.1:8000/docs for API docs"}
+            return {"message": "Codexa API - Open http://127.0.0.1:8000/docs for API docs"}
     
     return app

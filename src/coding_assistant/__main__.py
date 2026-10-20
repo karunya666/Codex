@@ -1,5 +1,5 @@
 """
-CodeCopilot CLI Entry Point
+Codexa CLI Entry Point
 
 Two main commands:
   1. serve     - Start the FastAPI server (required first)
@@ -57,7 +57,7 @@ def main() -> None:
     
     if args.command == "serve":
         # Start the FastAPI server
-        print(f"🚀 Starting CodeCopilot server at http://{args.host}:{args.port}")
+        print(f"🚀 Starting Codexa server at http://{args.host}:{args.port}")
         print(f"📖 API documentation at http://{args.host}:{args.port}/docs")
         uvicorn.run(
             "coding_assistant.app:create_app",

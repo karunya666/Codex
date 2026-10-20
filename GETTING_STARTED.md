@@ -1,4 +1,4 @@
-# Getting Started with CodeCopilot
+# Getting Started with Codexa
 
 A step-by-step guide to set up and use the intelligent coding assistant.
 
@@ -23,7 +23,7 @@ A step-by-step guide to set up and use the intelligent coding assistant.
 
 ### Step 1: Clone & Navigate
 ```bash
-cd /path/to/CodeCopilot
+cd /path/to/Codexa
 ```
 
 ### Step 2: Start Infrastructure Services
@@ -89,7 +89,7 @@ LOG_LEVEL=INFO
 pip install -e ".[dev]"
 ```
 
-This installs CodeCopilot in editable mode with development dependencies.
+This installs Codexa in editable mode with development dependencies.
 
 ## Running the Server
 

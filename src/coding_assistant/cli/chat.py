@@ -1,7 +1,7 @@
 """
-Interactive Terminal Chat Client for CodeCopilot
+Interactive Terminal Chat Client for Codexa
 
-Provides a friendly terminal interface to interact with the CodeCopilot server.
+Provides a friendly terminal interface to interact with the Codexa server.
 
 Features:
   • Natural language queries about your codebase
@@ -20,7 +20,7 @@ Examples:
   "/status" - show current settings
   "/help" - list all commands
 
-Author: CodeCopilot Team
+Author: Codexa Team
 """
 
 from __future__ import annotations
