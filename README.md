@@ -11,7 +11,7 @@
 
 **CodeCopilot is an intelligent agentic coding assistant that understands your codebase, plans multi-step actions, runs tools safely, and helps you ship software faster — powered by the LLM of your choice.**
 
-[📖 Docs](docs/) · [⚡ Quick Start](#-step-by-step-local-setup-guide) · [🐛 Report Bug](https://github.com/Heshane-11/CodeCopilot/issues)
+[📖 Docs](docs/) · [⚡ Quick Start](#-step-by-step-local-setup-guide) · [🐛 Report Bug](https://github.com/karunya-11/CodeCopilot/issues)
 
 </div>
 
@@ -97,7 +97,7 @@ Follow this guide to run CodeCopilot locally on your computer and connect it to 
 
 **Option A: Using Git (Recommended)**
 ```bash
-git clone https://github.com/Heshane-11/CodeCopilot.git
+git clone https://github.com/karunya-11/CodeCopilot.git
 cd CodeCopilot
 ```
 
@@ -266,7 +266,7 @@ This project is open source under the MIT License. See [LICENSE](LICENSE) for de
 
 Built with ❤️ using **FastAPI**, **LangGraph**, and **LiteLLM**
 
-⭐ **Star on GitHub**: [Heshane-11/CodeCopilot](https://github.com/Heshane-11/CodeCopilot)
+⭐ **Star on GitHub**: [karunya-11/CodeCopilot](https://github.com/karunya-11/CodeCopilot)
 
 </div>
 
