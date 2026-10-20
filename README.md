@@ -266,7 +266,10 @@ This project is open source under the MIT License. See [LICENSE](LICENSE) for de
 
 Built with ❤️ using **FastAPI**, **LangGraph**, and **LiteLLM**
 
-⭐ **Star on GitHub**: [karunya-11/CodeCopilot](https://github.com/karunya-11/CodeCopilot)
+
+
+
+⭐ **Star on GitHub**: [karunya-11/CodeCopilot](https://github.com/karunya666/CodeCopilot)
 
 </div>
 
